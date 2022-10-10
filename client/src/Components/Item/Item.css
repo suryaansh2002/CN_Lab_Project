@@ -1,0 +1,77 @@
+.left {
+  width: 55vw;
+  display: inline-block;
+}
+.right {
+  display: inline-block;
+  width: 40vw;
+}
+
+.left img {
+  width: 30vw;
+  margin-left: 10%;
+  height: 70vh;
+  margin-top: 5vh;
+  opacity: 0.8;
+  border-radius: 20px;
+  box-shadow: 4px 10px 3px rgb(77, 19, 79);
+}
+
+.page .name {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: black;
+  position: absolute;
+  top: 15vh;
+  margin-left: 2rem;
+}
+
+.page .desc {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: black;
+  position: absolute;
+  top: 32vh;
+  font-style: italic;
+  width: 30%;
+  line-height: 1.5rem;
+}
+
+.page .price {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: black;
+  position: absolute;
+  background-color: rgba(70, 72, 72, 0.24);
+  bottom: 20vh;
+  line-height: 1.5rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.page .cart {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  position: absolute;
+  background-color: rgb(120, 120, 173);
+  bottom: 20vh;
+  right: 10vw;
+  border: none;
+  background-color: rgba(7, 22, 78, 0.788);
+  color: white;
+  border-radius: 10px;
+  line-height: 1.5rem;
+  background-color: rgb(74, 74, 126);
+  padding: 0.75rem 1.5rem;
+}
+
+.page .cart:hover{
+    cursor: pointer;
+}
